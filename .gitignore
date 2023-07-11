@@ -1,0 +1,8 @@
+node_modules
+deploy.sh
+.history
+.vitepress/cache/deps/_metadata.json
+.vitepress/cache/deps/@theme_index.js
+.vitepress/cache/deps/@theme_index.js.map
+.vitepress/cache/deps/vue.js
+.vitepress/cache/deps/vue.js.map

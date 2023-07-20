@@ -14,3 +14,7 @@
 1. 项目教程来源于【Anthony Fu】
 2. 静态站点由【[Netlify](https://www.netlify.com/)】搭建部署，[查看源码](https://github.com/feifei128/minesWeeper)
 3. [玩一局](https://joyful-monstera-06e5b3.netlify.app)
+
+## 🖼️ 展示
+
+![avatar](/images/showMinesweeper.png)

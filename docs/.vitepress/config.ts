@@ -28,15 +28,14 @@ export default defineConfig({
         text: '🛠️ 源码阅读',
         items: [
           { text: "🍂 Riot.js", link: "/code/riot/01-响应性.md" },
-          { text: "🍂 Vue2", link: "/code/vue2/01-生命周期.md" },
-          { text: "🍂 Vue3", link: "/code/vue3/01-生命周期.md" },
+          { text: "🍂 Vue.js", link: "/code/vue3/01-生命周期.md" },
         ],
       },
       {
         text: '📚 项目笔记',
         items: [
-          { text: "🍂 扫雷", link: '/projects/minesWeeper.md' },
-          { text: "🍂 贪吃蛇", link: '/projects/snake.md' },
+          { text: "🍂 Games", link: '/projects/minesWeeper.md' },
+          { text: "🍂 React", link: '/projects/smartAppAdmin.md' },
         ],
       },
     ],
@@ -266,10 +265,23 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '☑️ 01 扫雷', link: '/projects/minesWeeper.md' },
-            { text: '☑️ 02 贪吃蛇', link: '/projects/snake.md' },
+            { text: '☑️ 02 功德无量', link: '/projects/woodenFish.md' },
           ]
         },
-        { text: '电商平台', link: '/code/vue2/01-生命周期.md' },
+        {
+          text: 'React 项目',
+          collapsed: true,
+          items: [
+            { text: '☑️ 智能家电后台', link: '/projects/smartAppAdmin.md' },
+          ]
+        },
+        {
+          text: 'Vue 项目',
+          collapsed: true,
+          items: [
+            { text: '☑️ 尚品汇', link: '/projects/shangpinhui.md' },
+          ]
+        },
       ],
     },
 

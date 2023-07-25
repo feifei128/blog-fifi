@@ -36,6 +36,7 @@ export default defineConfig({
         items: [
           { text: "🍂 Games", link: '/projects/minesWeeper.md' },
           { text: "🍂 React", link: '/projects/smartAppAdmin.md' },
+          { text: "🍂 Vue", link: '/projects/shangpinhui/01-简介.md' },
         ],
       },
     ],
@@ -272,14 +273,33 @@ export default defineConfig({
           text: 'React 项目',
           collapsed: true,
           items: [
-            { text: '☑️ 智能家电后台', link: '/projects/smartAppAdmin.md' },
+            { text: '☑️ 01 智能家电后台', link: '/projects/smartAppAdmin.md' },
           ]
         },
         {
           text: 'Vue 项目',
           collapsed: true,
           items: [
-            { text: '☑️ 尚品汇', link: '/projects/shangpinhui.md' },
+            {
+              text: '尚品汇',
+              items: [
+                { text: '☑️ 01 项目简介', link: '/projects/shangpinhui/01-简介.md' },
+                { text: '☑️ 02 三级联动导航', link: '/projects/shangpinhui/02-三级联动导航.md' },
+                { text: '☑️ 03 轮播图', link: '/projects/shangpinhui/03-轮播图.md' },
+                { text: '☑️ 04 面包屑', link: '/projects/shangpinhui/04-面包屑.md' },
+                { text: '☑️ 05 分页器', link: '/projects/shangpinhui/05-分页器.md' },
+                { text: '☑️ 06 商品详情页', link: '/projects/shangpinhui/06-商品详情页.md' },
+                { text: '☑️ 07 加购功能', link: '/projects/shangpinhui/07-加购功能.md' },
+                { text: '☑️ 08 购物车', link: '/projects/shangpinhui/08-购物车.md' },
+                { text: '☑️ 09 登录注册', link: '/projects/shangpinhui/09-登录注册.md' },
+                { text: '☑️ 10 导航守卫', link: '/projects/shangpinhui/10-导航守卫.md' },
+                { text: '☑️ 11 交易支付', link: '/projects/shangpinhui/11-交易支付.md' },
+                { text: '☑️ 12 我的订单', link: '/projects/shangpinhui/12-我的订单.md' },
+                { text: '☑️ 13 懒加载', link: '/projects/shangpinhui/13-懒加载.md' },
+                { text: '☑️ 14 表单验证', link: '/projects/shangpinhui/14-表单验证.md' },
+                { text: '☑️ 15 打包部署', link: '/projects/shangpinhui/15-打包部署.md' },
+              ]
+            },
           ]
         },
       ],

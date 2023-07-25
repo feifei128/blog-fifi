@@ -7,7 +7,7 @@
 
 ## 📖 介绍
 
-1. 静态站点由【[Netlify](https://www.netlify.com/)】搭建部署，[查看源码](https://github.com/feifei128/minesWeeper)
+1. 静态站点由【[Netlify](https://www.netlify.com/)】搭建部署，[查看源码](https://github.com/feifei128/eWoodenFish)
 2. 繁忙的工作生活，多一点苦中作乐~ [玩一局](https://e-wooden-fish.netlify.app/)
 
 ## 👀 展示

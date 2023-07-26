@@ -6,3 +6,4 @@ deploy.sh
 .vitepress/cache/deps/@theme_index.js.map
 .vitepress/cache/deps/vue.js
 .vitepress/cache/deps/vue.js.map
+docs/.vitepress/cache

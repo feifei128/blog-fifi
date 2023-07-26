@@ -29,6 +29,7 @@ export default defineConfig({
         items: [
           { text: "🍂 Riot.js", link: "/code/riot/01-响应性.md" },
           { text: "🍂 Vue.js", link: "/code/vue3/01-生命周期.md" },
+          { text: 'Formily', link: '/code/formily/简介.md' },
         ],
       },
       {
@@ -53,7 +54,6 @@ export default defineConfig({
 
             },
             { text: '☑️ 02 Git', link: '/basic/前端工具/02-Git的使用.md' },
-            { text: '☑️ 03 网络抓包和代理工具', link: '/basic/前端工具/03-网络抓包和代理工具：Whistle.md' }
           ]
         },
         {
@@ -251,13 +251,17 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Vue.js 2',
+          text: 'Vue.js',
           collapsed: true,
           items: [
-            { text: '☑️ 01 生命周期', link: '/code/vue2/01-生命周期.md' },
-            { text: '☑️ 02 响应性', link: '/code/vue2/02-响应性.md' },
-            { text: '☑️ 03 虚拟DOM', link: '/code/vue2/03-虚拟DOM.md' }
+            { text: '☑️ 01 生命周期', link: '/code/vue/01-生命周期.md' },
+            { text: '☑️ 02 响应性', link: '/code/vue/02-响应性.md' },
+            { text: '☑️ 03 虚拟DOM', link: '/code/vue/03-虚拟DOM.md' }
           ]
+        },
+        {
+          text: 'Formily',
+          link: '/code/formily/简介.md'
         },
       ],
       '/projects/': [

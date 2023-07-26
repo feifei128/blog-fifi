@@ -7,3 +7,4 @@ deploy.sh
 .vitepress/cache/deps/vue.js
 .vitepress/cache/deps/vue.js.map
 docs/.vitepress/dist
+pnpm-lock.yaml

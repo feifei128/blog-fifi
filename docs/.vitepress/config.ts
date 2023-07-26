@@ -29,7 +29,7 @@ export default defineConfig({
         items: [
           { text: "🍂 Riot.js", link: "/code/riot/01-响应性.md" },
           { text: "🍂 Vue.js", link: "/code/vue3/01-生命周期.md" },
-          { text: 'Formily', link: '/code/formily/简介.md' },
+          { text: '🍂 Formily', link: '/code/formily/简介.md' },
         ],
       },
       {

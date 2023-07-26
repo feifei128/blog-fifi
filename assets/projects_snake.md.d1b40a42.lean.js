@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./chunks/framework.987d87f6.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"projects/snake.md","filePath":"projects/snake.md"}'),s={name:"projects/snake.md"};function r(o,n,c,p,_,d){return a(),t("div")}const f=e(s,[["render",r]]);export{m as __pageData,f as default};

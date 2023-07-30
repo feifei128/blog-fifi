@@ -16,7 +16,7 @@ export default defineConfig({
         text: '🏠 主页', link: '/',
       },
       {
-        text: '🛠️ 基础知识',
+        text: '📚 基础知识',
         items: [
           { text: "🍂 前端工具", link: "/basic/前端工具/01-VS Code的使用.md" },
           { text: "🍂 前端基础", link: "/basic/基础/HTML/01-认识Web.md" },
@@ -25,15 +25,15 @@ export default defineConfig({
         ],
       },
       {
-        text: '🛠️ 源码阅读',
+        text: '📝 源码阅读',
         items: [
           { text: "🍂 Riot.js", link: "/code/riot/01-响应性.md" },
-          { text: "🍂 Vue.js", link: "/code/vue3/01-生命周期.md" },
+          { text: "🍂 Vue.js", link: "/code/vue/响应性/01-简介.md" },
           { text: '🍂 Formily', link: '/code/formily/简介.md' },
         ],
       },
       {
-        text: '📚 项目笔记',
+        text: '🖊️ 项目笔记',
         items: [
           { text: "🍂 Games", link: '/projects/minesWeeper.md' },
           { text: "🍂 React", link: '/projects/smartAppAdmin.md' },
@@ -254,9 +254,24 @@ export default defineConfig({
           text: 'Vue.js',
           collapsed: true,
           items: [
-            { text: '☑️ 01 生命周期', link: '/code/vue/01-生命周期.md' },
-            { text: '☑️ 02 响应性', link: '/code/vue/02-响应性.md' },
-            { text: '☑️ 03 虚拟DOM', link: '/code/vue/03-虚拟DOM.md' }
+            {
+              text: '响应性',
+              collapsed: true,
+              items: [
+                { text: '☑️ 01 介绍', link: '/code/vue/响应性/01-简介.md' },
+                { text: '☑️ 02 Reactive', link: '/code/vue/响应性/02-reactive.md' },
+                { text: '☑️ 03 依赖收集', link: '/code/vue/响应性/03-依赖收集.md' },
+                { text: '☑️ 04 派发更新', link: '/code/vue/响应性/04-派发更新.md' },
+              ]
+            },
+            {
+              text: '常用指令',
+              collapsed: true,
+              items: [
+                { text: '☑️ 01 v-if', link: '/code/vue/常用指令/01-v-if.md' },
+                { text: '☑️ 02 v-show', link: '/code/vue/常用指令/02-v-show.md' },
+              ]
+            },
           ]
         },
         {

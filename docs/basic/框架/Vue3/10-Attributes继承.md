@@ -176,8 +176,6 @@ export default {
 </template>
 ```
 
-![image-20220808231521594](https://i0.hdslb.com/bfs/album/733219e50d6f149ddec431eca8b24c48f359e36c.png)
-
 ### 1.3 多根节点的 Attributes 继承
 
 和单根节点组件有所不同，有着多个根节点的组件没有自动 attribute 透传行为。如果 `$attrs` 没有被显式绑定，将会抛出一个运行时警告。
@@ -200,8 +198,6 @@ export default {
    </div>
 ```
 
-![image-20220808232142732](https://i0.hdslb.com/bfs/album/abedff9e473e94ee838ea51b25935ab6dae0aa9c.png)
-
 如果 `$attrs` 被显式绑定，则不会有警告：
 
 ```vue
@@ -216,8 +212,6 @@ export default {
    </div>
 ```
 
-![image-20220808232242645](https://i0.hdslb.com/bfs/album/868f6a56087bf52386b73dfcd668a5df7618a9df.png)
-
 ### 1.4 在 js 中访问透传 Attributes
 
 如果需要，你可以在 `<script setup>` 中使用 `useAttrs()` API 来访问一个组件的所有透传 attribute：
@@ -230,8 +224,6 @@ const attrs = useAttrs()
 alert(JSON.stringify(attrs))
 </script>
 ```
-
-![image-20220808232504160](https://i0.hdslb.com/bfs/album/53d05b7bd3075f45a3318281b6a390d9f88418e9.png)
 
 如果没有使用 `<script setup>`，`attrs` 会作为 `setup()` 上下文对象的一个属性暴露：
 

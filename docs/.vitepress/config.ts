@@ -175,7 +175,7 @@ export default defineConfig({
                 { text: '☑️ 14 Teleport CSS功能', link: '/basic/框架/Vue3/14-Teleport CSS功能.md' },
                 { text: '☑️ 15 其他组合式API', link: '/basic/框架/Vue3/15-其它组合式API.md' },
                 { text: '☑️ 16 Pinia', link: '/basic/框架/Vue3/16-Pinia.md' },
-                { text: '☑️ 17 路由', link: '/basic/框架/Vue3/17-Router4.md' },
+                { text: '☑️ 17 路由', link: '/basic/框架/Vue3/17-路由.md' },
                 { text: '☑️ 18 自动导入配置', link: '/basic/框架/Vue3/18-vue3自动导入配置.md' },
               ]
             },

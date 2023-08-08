@@ -95,17 +95,13 @@ let isShow = $ref(false)
 
 现在来看没有问题
 
-![image-20220809195810727](https://i0.hdslb.com/bfs/album/6d89d75f5e960646fe304978a6e2e6505584fbc3.png)
-
 可是如果父元素加一个定位:
 
 ```css
 position: relative;
 ```
 
-![image-20220809195844153](https://i0.hdslb.com/bfs/album/082bb5d9af3f5adbfceeb7518839f56c16c55e7e.png)
-
-遮罩层就会变成这样
+遮罩层就会乱套
 
 以后嵌套组件变多了，遮罩组件的父级组件存在定位语句是很正常的。如果能把这个组件渲染到`body`标签的子标签就好了。这时就可以使用`Teleport`组件。
 
@@ -128,8 +124,6 @@ position: relative;
       <Child></Child>
     </Teleport>
 ```
-
-![image-20220809200202370](https://i0.hdslb.com/bfs/album/53be7cbbb9c6d4260f43d687866f55975383a6e0.png)
 
 可以发现这个组件确实被渲染到`body`标签下面了。
 
@@ -512,8 +506,6 @@ import A from '@/components/A.vue'
 <style lang="less" scoped></style>
 ```
 
-![image-20220810215440054](https://i0.hdslb.com/bfs/album/f710b2c6538b3248841900e8476cac4b5fb90859.png)
-
 默认情况下，作用域样式不会影响到 `<slot/>` 渲染出来的内容，因为它们被认为是父组件所持有并传递进来的。
 
 解决方案 slotted
@@ -525,8 +517,6 @@ import A from '@/components/A.vue'
 }
 </style>
 ```
-
-![image-20220810215539547](https://i0.hdslb.com/bfs/album/9ca75bb1aee6ca723ef3f328c8c82cdfbc895bd2.png)
 
 #### 2.3.4 全局选择器
 

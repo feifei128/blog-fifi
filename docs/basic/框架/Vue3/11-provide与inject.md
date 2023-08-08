@@ -2,15 +2,9 @@
 
 ### 2.1 Prop 逐级透传问题
 
-通常情况下，当我们需要从父组件向子组件传递数据时，会使用 [props](https://staging-cn.vuejs.org/guide/components/props.html)。想象一下这样的结构：有一些多层级嵌套的组件，形成了一颗巨大的组件树，而某个深层的子组件需要一个较远的祖先组件中的部分数据。在这种情况下，如果仅使用 props 则必须将其沿着组件链逐级传递下去，这会非常麻烦：
-
-![image-20220808140700781](https://i0.hdslb.com/bfs/album/5174ce7ec770df63fd92eb3560c924883ac4b949.png)
-
-注意，虽然这里的 `<Footer>` 组件可能根本不关心这些 props，但为了使 `<DeepChild>` 能访问到它们，仍然需要定义并向下传递。如果组件链路非常长，可能会影响到更多这条路上的组件。这一问题被称为“prop 逐级透传”，显然是我们希望尽量避免的情况。
+通常情况下，当我们需要从父组件向子组件传递数据时，会使用 [props](https://staging-cn.vuejs.org/guide/components/props.html)。想象一下这样的结构：有一些多层级嵌套的组件，形成了一颗巨大的组件树，而某个深层的子组件需要一个较远的祖先组件中的部分数据。在这种情况下，如果仅使用 props 则必须将其沿着组件链逐级传递下去，这会非常麻烦。
 
 `provide` 和 `inject` 可以帮助我们解决这一问题。 [[1\]](https://staging-cn.vuejs.org/guide/components/provide-inject.html#footnote-1) 一个父组件相对于其所有的后代组件，会作为**依赖提供者**。任何后代的组件树，无论层级有多深，都可以**注入**由父组件提供给整条链路的依赖。
-
-![image-20220808140729471](https://i0.hdslb.com/bfs/album/320789c4ef9b80c19e5d7dfc3f86d768fc7c550a.png)
 
 - 作用：实现<strong style="color:#DD5145">祖与后代组件间</strong>通信
 - 套路：父组件有一个 `provide` 选项来提供数据，后代组件有一个 `inject` 选项来开始使用这些数据

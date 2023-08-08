@@ -31,8 +31,6 @@ onUnmounted(() => window.removeEventListener('mousemove', update))
 <template>Mouse position is at: {{ x }}, {{ y }}</template>
 ```
 
-![image-20220809190244670](https://i0.hdslb.com/bfs/album/39f70b7b2e52cb51ceb6f53716458658214e2521.png)
-
 但是，如果我们想在多个组件中复用这个相同的逻辑呢？我们可以把这个逻辑以一个组合式函数的形式提取到外部文件中：
 
 `hooks/mouse.js`

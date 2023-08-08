@@ -146,8 +146,6 @@ console.log(name)
 console.log(person1)
 ```
 
-![image-20220706153437228](https://i0.hdslb.com/bfs/album/27d752c042cf0dba1e479333b43824325938d8c9.png)
-
 > 注意直接从 reactive 中解构出来的就没有响应式了，只是一个单纯的数值。
 >
 > 所以有了 toRefs,可以把第一层结构解构出来还是有响应式。
@@ -198,8 +196,6 @@ setup() {
 
 `name`,`age,job`都是响应式数据，但是深层次的`j1和salary`则没有响应式。
 
-![image-20220808121112135](https://i0.hdslb.com/bfs/album/58c0804fa87fee0e177ed5a97fe9d39ba8f06f21.png)
-
 **shallowRef**
 
 ```js
@@ -215,8 +211,6 @@ setup() {
     },
 
 ```
-
-![image-20220808113902628](https://i0.hdslb.com/bfs/album/d236d8fb7f5c7cabd4b807bdb00c3ceab00c7146.png)
 
 > 但是这个 shallowRef 定义的数据本身还是响应式，比如定义一个函数，内部写上`shallowRefX.value = {x:888}`,用一个事件触发后，页面也会更新的。
 
@@ -284,10 +278,6 @@ export default {
 
 使用 readonly 之后，无论是浅层次的，还是深层次的的数据都不能被修改。
 
-如下图，点击了下面一排的三个按钮都被警告是不能被修改的
-
-![image-20220808121742457](https://i0.hdslb.com/bfs/album/93c0880b93ac89b097f157a55226e63987a41ddf.png)
-
 **shallowReadonly**
 
 ```vue
@@ -308,10 +298,6 @@ export default {
 ```
 
 使用 readonly 之后，第一层次的数据不能被修改，但是深层次的的数据时可以被修改的。
-
-如下图，点击了下面一排的三个按钮，前两个修改第一层数据被警告是不能被修改的，第三个修改工资是可以修改的。
-
-![image-20220808122216340](https://i0.hdslb.com/bfs/album/df9d0294661e3a28de513102ac4889083b2beabe.png)
 
 ## 4.toRaw 与 markRaw
 
@@ -400,8 +386,6 @@ export default {
 ```
 
 点击了输出最原始的 person，但是页面的数据并没有改变，而且从输出结果来看这个并不是响应式的。
-
-![image-20220808134046196](https://i0.hdslb.com/bfs/album/4c362973c9c57aa0f5a750cf0aa6d43ef5967a6b.png)
 
 **markRaw**
 

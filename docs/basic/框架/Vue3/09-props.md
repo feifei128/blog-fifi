@@ -684,8 +684,6 @@ function test() {
 </template>
 ```
 
-![image-20220809130712485](https://i0.hdslb.com/bfs/album/b923af6cbf3547f18b1800321b6c53ce7bbfca71.png)
-
 ### 2.7 `vue3`中事件总线
 
 #### 2.7.1 插件
@@ -801,8 +799,6 @@ export default new Bus()
 > 挂载到全局 Vue config
 > 或者单独的页面引入 import Bus from ‘bus.ts’
 > Bus.emit 触发，Bus.on 监听
-
-![image-20220810185533253](https://i0.hdslb.com/bfs/album/f94abe842d83839d9c7f0f7852094e228f94b3c2.png)
 
 `main.ts`
 

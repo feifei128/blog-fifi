@@ -1,7 +1,5 @@
 # react-router 6
 
-> 关于路由的知识已在`11 【react-router 5】`中进行说明，这里主要是对于 5 版本的 api 的变换说明
-
 ## 1.概述
 
 官方文档：[Home v6.4.1 | React Router](https://reactrouter.com/en/main)React Router 以三个不同的包发布到 npm 上，它们分别为：
@@ -278,7 +276,6 @@ import React from 'react'
 import About from './pages/About'
 import Home from './pages/Home'
 import { Route, Routes, Navigate } from 'react-router-dom'
-
 ;<Routes>
   <Route path="/about" element={<About />}></Route>
   <Route path="/home" element={<Home />}></Route>
@@ -416,8 +413,6 @@ export default function App() {
 > pages/News/index.jsx，即 News 组件
 > pages/Message/index.jsx，即 Message 组件
 
-![image-20221027122205526](https://i0.hdslb.com/bfs/album/8a6da962aea796cb490cb74582edd7e18dab8a65.png)
-
 `routes/index.js`
 
 用 **`children`** 来嵌套路由。
@@ -509,8 +504,6 @@ export default function Home() {
 > routes/index.js
 > pages/Message/index.jsx，即 Message 组件
 > pages/Detail/index.jsx，即 Detail 组件
-
-![371844431d4c4553a1fbfd9d01fb140a](https://i0.hdslb.com/bfs/album/cd93da0f0a1b8cb3c10a95316774424e8a90c2a3.gif)
 
 `routes/index.js`
 
@@ -621,16 +614,12 @@ export default function Detail() {
 }
 ```
 
-![image-20221027221627763](https://i0.hdslb.com/bfs/album/a48329c789ca77c001be90191437f51399cc7ff0.png)
-
 获取 params 参数有两种方式：
 
 1. 使用 **useParams**
    **`const {id,title,content} = useParams();`**
 2. 使用 **useMatch**
    **`const {params:{id,title,content}}= useMatch("/home/message/detail/:id/:title/:content");`**
-
-![image-20221027221736759](https://i0.hdslb.com/bfs/album/3d4eb676c19c7cf4962b27e7bfedff9da5afe804.png)
 
 ### 11.2 传递 search 参数
 
@@ -727,12 +716,6 @@ export default function Detail() {
   )
 }
 ```
-
-![image-20221027222023399](https://i0.hdslb.com/bfs/album/a858b197e7ebe8e56f378dd04606f409d4a30eb4.png)
-
-点击按钮后
-
-![image-20221027222047406](https://i0.hdslb.com/bfs/album/7cec34a9494d46fcdcfe7cb6e90d80504c34ca85.png)
 
 **使用 useLocation**
 
@@ -858,8 +841,6 @@ export default function Detail() {
 > 但是现在网站基本也没看过路径有个`#`，所以我们使用`BrowserRouter`就行了。
 
 ## 12.编程式路由导航
-
-案例还是和`11.路由传递参数`一样，只是换了种方式传参数
 
 ### 12.1 编程式导航下，路由传递 params 参数
 

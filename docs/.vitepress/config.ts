@@ -54,6 +54,7 @@ export default defineConfig({
 
             },
             { text: '☑️ 02 Git', link: '/basic/前端工具/02-Git的使用.md' },
+            { text: '☑️ 02 Oh My Zsh', link: '/basic/前端工具/03-zsh.md' },
           ]
         },
         {

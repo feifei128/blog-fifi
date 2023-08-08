@@ -14,9 +14,6 @@ hero:
       text: 在 GitHub 上查看
       link: https://github.com/feifei128/
     - theme: alt
-      text: 在 Gitee 上查看
-      link: https://gitee.com/kidd57
-    - theme: alt
       text: 添加 QQ ~
       link: https://gitee.com/kidd57/images-storage/raw/master/images/QQCode.jpg
     - theme: alt

@@ -153,6 +153,7 @@ export default defineConfig({
                 { text: '☑️ 11 Vue中的Ajax请求', link: '/basic/框架/Vue2/11-Vue中的Ajax请求.md' },
                 { text: '☑️ 12 组件传值', link: '/basic/框架/Vue2/12-组件传值.md' },
                 { text: '☑️ 13 路由', link: '/basic/框架/Vue2/13-路由.md' },
+                { text: '☑️ 14 Ref', link: '/basic/框架/Vue2/14-ref.md' },
               ]
             },
             {

@@ -204,6 +204,22 @@ export default defineConfig({
           ]
         },
         {
+          text: '🐞 前端工程化',
+          collapsed: true,
+          items: [
+            {
+              text: 'Webpack',
+              items: [
+                { text: '☑️ 01 开始', link: '/basic/工程化/Webpack/01-开始.md' },
+                { text: '☑️ 02 插件', link: '/basic/工程化/Webpack/02-插件.md' },
+                { text: '☑️ 03 加载器', link: '/basic/工程化/Webpack/03-加载器.md' },
+                { text: '☑️ 04 打包发布', link: '/basic/工程化/Webpack/04-打包发布.md' },
+              ]
+            },
+
+          ]
+        },
+        {
           text: '💽 服务端',
           collapsed: true,
           items: [

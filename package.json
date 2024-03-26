@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "mini-css-extract-plugin": "^2.7.6",
-    "vitepress": "^1.0.0-alpha.75"
+    "vitepress": "^1.0.1"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",

@@ -96,26 +96,6 @@ export default defineConfig({
                 { text: '☑️ 13 Sass', link: '/basic/基础/CSS/13-Sass入门.md' },
               ]
             },
-            {
-              text: 'JS进阶',
-              collapsed: true,
-              items: [
-                { text: '☑️ 01 数组', link: '/basic/基础/JS高级/01-数组.md' },
-                { text: '☑️ 02 函数', link: '/basic/基础/JS高级/02-函数.md' },
-                { text: '☑️ 03 构造函数和原型', link: '/basic/基础/JS高级/03-构造函数和原型.md' },
-                { text: '☑️ 04 This', link: '/basic/基础/JS高级/04-This.md' },
-                { text: '☑️ 05 Call / Apply / Bind', link: '/basic/基础/JS高级/05-call、apply 和 bind.md' },
-                { text: '☑️ 06 闭包', link: '/basic/基础/JS高级/06-闭包.md' },
-                { text: '☑️ 07 对象', link: '/basic/基础/JS高级/07-对象的基本操作.md' },
-                { text: '☑️ 08 深浅拷贝', link: '/basic/基础/JS高级/08-浅拷贝和深拷贝.md' },
-                { text: '☑️ 09 继承', link: '/basic/基础/JS高级/09-继承.md' },
-                { text: '☑️ 10 正则表达式', link: '/basic/基础/JS高级/10-正则表达式.md' },
-                { text: '☑️ 11 DOM', link: '/basic/基础/JS高级/11-DOM简介和DOM操作.md' },
-                { text: '☑️ 12 事件', link: '/basic/基础/JS高级/12-事件的绑定和事件对象Event.md' },
-                { text: '☑️ 13 事件传播和事件冒泡', link: '/basic/基础/JS高级/13-事件的传播和事件冒泡.md' },
-                { text: '☑️ 14 事件委托', link: '/basic/基础/JS高级/14-事件委托.md' },
-              ]
-            },
           ]
         },
         {
@@ -123,17 +103,37 @@ export default defineConfig({
           collapsed: true,
           items: [
             {
+              text: 'JavaScript进阶',
+              collapsed: true,
+              items: [
+                { text: '☑️ 01 数组', link: '/basic/进阶/JS高级/01-数组.md' },
+                { text: '☑️ 02 函数', link: '/basic/进阶/JS高级/02-函数.md' },
+                { text: '☑️ 03 构造函数和原型', link: '/basic/进阶/JS高级/03-构造函数和原型.md' },
+                { text: '☑️ 04 This', link: '/basic/进阶/JS高级/04-This.md' },
+                { text: '☑️ 05 Call / Apply / Bind', link: '/basic/进阶/JS高级/05-call、apply 和 bind.md' },
+                { text: '☑️ 06 闭包', link: '/basic/进阶/JS高级/06-闭包.md' },
+                { text: '☑️ 07 对象', link: '/basic/进阶/JS高级/07-对象的基本操作.md' },
+                { text: '☑️ 08 深浅拷贝', link: '/basic/进阶/JS高级/08-浅拷贝和深拷贝.md' },
+                { text: '☑️ 09 继承', link: '/basic/进阶/JS高级/09-继承.md' },
+                { text: '☑️ 10 正则表达式', link: '/basic/进阶/JS高级/10-正则表达式.md' },
+                { text: '☑️ 11 DOM', link: '/basic/进阶/JS高级/11-DOM简介和DOM操作.md' },
+                { text: '☑️ 12 事件', link: '/basic/进阶/JS高级/12-事件的绑定和事件对象Event.md' },
+                { text: '☑️ 13 事件传播和事件冒泡', link: '/basic/进阶/JS高级/13-事件的传播和事件冒泡.md' },
+                { text: '☑️ 14 事件委托', link: '/basic/进阶/JS高级/14-事件委托.md' },
+              ]
+            },
+            {
               text: 'TypeScript',
               collapsed: true,
               items: [
-                { text: '☑️ 01 快速开始', link: '/basic/基础/TS/01-快速开始.md' },
-                { text: '☑️ 02 基本数据类型', link: '/basic/基础/TS/02-基本数据类型.md' },
-                { text: '☑️ 03 类型断言', link: '/basic/基础/TS/03-类型断言.md' },
-                { text: '☑️ 04 编译选项', link: '/basic/基础/TS/04-编译选项.md' },
-                { text: '☑️ 05 Webpack配置', link: '/basic/基础/TS/05-webpack配置.md' },
-                { text: '☑️ 06 接口', link: '/basic/基础/TS/06-接口.md' },
-                { text: '☑️ 07 泛型', link: '/basic/基础/TS/07-泛型.md' },
-                { text: '☑️ 08 面向对象', link: '/basic/基础/TS/08-面向对象.md' },
+                { text: '☑️ 01 快速开始', link: '/basic/进阶/TS/01-快速开始.md' },
+                { text: '☑️ 02 基本数据类型', link: '/basic/进阶/TS/02-基本数据类型.md' },
+                { text: '☑️ 03 类型断言', link: '/basic/进阶/TS/03-类型断言.md' },
+                { text: '☑️ 04 编译选项', link: '/basic/进阶/TS/04-编译选项.md' },
+                { text: '☑️ 05 Webpack配置', link: '/basic/进阶/TS/05-webpack配置.md' },
+                { text: '☑️ 06 接口', link: '/basic/进阶/TS/06-接口.md' },
+                { text: '☑️ 07 泛型', link: '/basic/进阶/TS/07-泛型.md' },
+                { text: '☑️ 08 面向对象', link: '/basic/进阶/TS/08-面向对象.md' },
               ]
             },
           ]

@@ -136,6 +136,16 @@ export default defineConfig({
                 { text: '☑️ 08 面向对象', link: '/basic/进阶/TS/08-面向对象.md' },
               ]
             },
+            {
+              text: 'Ajax',
+              collapsed: true,
+              items: [
+                { text: '☑️ 01 HTTP基础', link: '/basic/进阶/Ajax/01-HTTP基础.md' },
+                { text: '☑️ 02 原生Ajax', link: '/basic/进阶/Ajax/02-原生Ajax.md' },
+                { text: '☑️ 03 第三方发送Ajax', link: '/basic/进阶/Ajax/03-第三方发送Ajax.md' },
+                { text: '☑️ 04 跨域', link: '/basic/进阶/Ajax/04-跨域.md' },
+              ]
+            },
           ]
         },
         {

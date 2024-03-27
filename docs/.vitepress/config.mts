@@ -116,8 +116,14 @@ export default defineConfig({
                 { text: '☑️ 14 事件委托', link: '/basic/基础/JS高级/14-事件委托.md' },
               ]
             },
+          ]
+        },
+        {
+          text: '📚 前端进阶',
+          collapsed: true,
+          items: [
             {
-              text: 'TS',
+              text: 'TypeScript',
               collapsed: true,
               items: [
                 { text: '☑️ 01 快速开始', link: '/basic/基础/TS/01-快速开始.md' },

@@ -18,26 +18,28 @@ export default defineConfig({
       {
         text: '📚 基础知识',
         items: [
-          { text: "🍂 前端工具", link: "/basic/前端工具/01-VS Code的使用.md" },
-          { text: "🍂 前端基础", link: "/basic/基础/HTML/01-认识Web.md" },
-          { text: "🍂 前端框架", link: "/basic/框架/Vue2/01-MVVM.md" },
-          { text: "🍂 服务端", link: "/basic/服务端/Nodejs/00-快速开始.md" }
+          { text: "⛏️ 前端工具", link: "/basic/前端工具/01-VS Code的使用.md" },
+          { text: "📚 前端基础", link: "/basic/基础/HTML/01-认识Web.md" },
+          { text: "📚 前端进阶", link: "/basic/进阶/JS高级/01-数组.md" },
+          { text: "🔥 前端框架", link: "/basic/框架/Vue2/01-MVVM.md" },
+          { text: "🛠️ 前端工程化", link: "/basic/工程化/Webpack/01-开始.md" },
+          { text: "💽 服务端", link: "/basic/服务端/Nodejs/00-快速开始.md" }
         ],
       },
       {
         text: '📝 源码阅读',
         items: [
           { text: "🍂 Riot.js", link: "/code/riot/01-响应性.md" },
-          { text: "🍂 Vue.js", link: "/code/vue/响应性/01-简介.md" },
+          { text: "🥦 Vue.js", link: "/code/vue/响应性/01-简介.md" },
           { text: '🍂 Formily', link: '/code/formily/简介.md' },
         ],
       },
       {
         text: '🖊️ 项目笔记',
         items: [
-          { text: "🍂 Games", link: '/projects/minesWeeper.md' },
-          { text: "🍂 React", link: '/projects/smartAppAdmin.md' },
-          { text: "🍂 Vue", link: '/projects/shangpinhui/01-简介.md' },
+          { text: "🎮 Games", link: '/projects/minesWeeper.md' },
+          { text: "🌀 React", link: '/projects/smartAppAdmin.md' },
+          { text: "🥦 Vue", link: '/projects/shangpinhui/01-简介.md' },
         ],
       },
     ],
@@ -45,7 +47,7 @@ export default defineConfig({
     sidebar: {
       '/basic/': [
         {
-          text: '🛠️ 前端工具',
+          text: '⛏️ 前端工具',
           collapsed: true,
           items: [
             {
@@ -227,7 +229,7 @@ export default defineConfig({
           ]
         },
         {
-          text: '🐞 前端工程化',
+          text: '🛠️ 前端工程化',
           collapsed: true,
           items: [
             {
@@ -322,7 +324,7 @@ export default defineConfig({
       ],
       '/projects/': [
         {
-          text: 'Games',
+          text: '🎮 Games',
           collapsed: true,
           items: [
             { text: '☑️ 01 扫雷', link: '/projects/minesWeeper.md' },
@@ -330,14 +332,14 @@ export default defineConfig({
           ]
         },
         {
-          text: 'React 项目',
+          text: '🌀 React 项目',
           collapsed: true,
           items: [
             { text: '☑️ 01 智能家电后台', link: '/projects/smartAppAdmin.md' },
           ]
         },
         {
-          text: 'Vue 项目',
+          text: '🥦 Vue 项目',
           collapsed: true,
           items: [
             {

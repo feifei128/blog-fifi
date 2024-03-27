@@ -146,6 +146,13 @@ export default defineConfig({
                 { text: '☑️ 04 跨域', link: '/basic/进阶/Ajax/04-跨域.md' },
               ]
             },
+            {
+              text: 'Less',
+              collapsed: true,
+              items: [
+                { text: '☑️ 01 基础', link: '/basic/进阶/Less/01-基础.md' },
+              ]
+            },
           ]
         },
         {
